@@ -1,0 +1,53 @@
+body {
+  background-image: url('CC.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 5px;
+  background-color: #4caf50;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  color: red;
+}
+
+.store-item {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.store-item p {
+  margin: 5px 0;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  text-align: center;
+}
